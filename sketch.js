@@ -17,8 +17,8 @@ var gameOver, restart;
 
     
 function preload(){
-  trex_running =   loadAnimation("t/myPhoto.jpg","t/myPhoto-1.jpg","t/myPhoto-2.jpg");
-  trex_collided = loadAnimation("t/3.jpg");
+  trex_running =   loadAnimation("myPhoto.jpg","myPhoto-1.jpg","myPhoto-2.jpg");
+  trex_collided = loadAnimation("3.jpg");
   
   groundImage = loadImage("ground2.png");
   
@@ -31,12 +31,12 @@ function preload(){
   obstacle5 = loadImage("obstacle5.png");
   obstacle6 = loadImage("obstacle6.png");
   
-  gameOverImg = loadImage("t/GAME.jpg");
+  gameOverImg = loadImage("GAME.jpg");
   restartImg = loadImage("restart.png");
-  backimage=loadImage("t/images (1).jpg");
-  sunAnimation=loadImage("t/sun final.jpg")
-  jumpsound=loadSound("t/hello.aac")
-  collide=loadSound("t/collided.aac")
+  backimage=loadImage("images (1).jpg");
+  sunAnimation=loadImage("sun final.jpg")
+  jumpsound=loadSound("hello.aac")
+  collide=loadSound("collided.aac")
 
 }
   function setup() {
